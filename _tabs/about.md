@@ -26,10 +26,8 @@ just sleep slightly better, I've done the job.
 
 ### Find me
 
-- 🌐 **Web:** [blueteam.cool](https://blueteam.cool)
 - 🐦 **X / Twitter:** [@btcoolteam](https://twitter.com/btcoolteam)
 - 📸 **Instagram:** [@blueteamcoolteam](https://instagram.com/blueteamcoolteam)
-- 💻 **GitHub:** [BlueTeamCoolTeam](https://github.com/BlueTeamCoolTeam)
 
 ### Disclaimer
 
