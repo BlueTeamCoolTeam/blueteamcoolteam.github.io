@@ -38,8 +38,8 @@ better, I've done the job.
 
 Posts will go up on **X** ([@btcoolteam](https://twitter.com/btcoolteam))
 and **Instagram** ([@blueteamcoolteam](https://instagram.com/blueteamcoolteam))
-as they land. Pull requests and corrections welcome on
-[GitHub](https://github.com/BlueTeamCoolTeam).
+as they land. Corrections, war stories, and "you missed a thing" — DMs are
+open on either.
 
 Stay curious.
 
