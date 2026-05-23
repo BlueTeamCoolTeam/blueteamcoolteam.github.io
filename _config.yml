@@ -1,0 +1,183 @@
+# The Site Configuration
+
+theme: jekyll-theme-chirpy
+
+lang: en
+
+# Set to your local timezone (https://zones.arilyn.cc). Update if you publish from a different region.
+timezone: Australia/Sydney
+
+# jekyll-seo-tag settings
+# ↓ --------------------------
+
+title: BlueTeamCoolTeam
+
+tagline: Defending the 99%
+
+description: >-
+  Digital Forensics · Detection Engineering · Threat Hunting. A space for
+  defenders, by defenders — write-ups, tooling, and tradecraft focused on
+  catching what actually gets people popped.
+
+url: "https://blueteam.cool"
+
+github:
+  username: BlueTeamCoolTeam
+
+twitter:
+  username: btcoolteam
+
+social:
+  name: Luke Wilkinson
+  email: # Leave blank — set a contact form or dedicated address later. Don't expose personal email here.
+  fediverse_handle:
+  links:
+    - https://twitter.com/btcoolteam
+    - https://github.com/BlueTeamCoolTeam
+    - https://instagram.com/blueteamcoolteam
+
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+analytics:
+  google:
+    id:
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
+    id:
+
+pageviews:
+  provider:
+
+# Leave empty so visitors can toggle. Override to 'dark' if you want a dark-only vibe.
+theme_mode:
+
+cdn:
+
+# Drop a logo at assets/img/avatar.png (a cap or BTCT mark works) and uncomment below.
+avatar: # /assets/img/avatar.png
+
+social_preview_image:
+
+toc: true
+
+comments:
+  # Enable later via giscus once the repo is public-facing and you've created a Discussions category.
+  provider:
+  disqus:
+    shortname:
+  utterances:
+    repo:
+    issue_term:
+  giscus:
+    repo:
+    repo_id:
+    category:
+    category_id:
+    mapping:
+    strict:
+    input_position:
+    lang:
+    reactions_enabled:
+
+assets:
+  self_host:
+    enabled:
+    env:
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+
+paginate: 10
+
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
